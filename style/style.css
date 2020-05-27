@@ -32,8 +32,9 @@ html, body {
 #site-body-main-form {
 	display: flex;
 	flex-direction: column;
+	margin-left: 50px;
 }
 
 #image {
-	font-size: 25em;
+	font-size: 20em;
 }
