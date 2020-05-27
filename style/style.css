@@ -29,12 +29,48 @@ html, body {
 #site-body-main-image {
 }
 
+#site-body-main-image > #image {
+	font-size: 20em;
+}
+
 #site-body-main-form {
 	display: flex;
 	flex-direction: column;
+	margin-top: 15px;
 	margin-left: 50px;
 }
 
-#image {
-	font-size: 20em;
+#form-title a {
+	color: #007C89;
+	text-decoration: none;
+}
+
+#form-title a:hover {
+	color: #004E56;
+	text-decoration: none;
+}
+
+.form-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.form-item > input {
+	width: 85%;
+}
+
+.form-item > input:focus {
+	border: 1.5px solid #007C89;
+	resize: none;
+}
+
+input {
+	min-height: 46px;
+	font-size: 1.7rem;
+	line-height: 15px;
+	padding: 0 15px;
+	margin: 10px 0 20px 0;
 }
