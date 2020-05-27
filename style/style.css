@@ -133,10 +133,14 @@ ul li {
 	width: 60%;
 }
 
+#form-acknowledgement {
+	margin-top: 15px;
+}
+
 #form-acknowledgement a {
 	color: #007C89;
 }
 
-#form-acknowledgements a:hover {
+#form-acknowledgement a:hover {
 	color: #004E56;
 }
