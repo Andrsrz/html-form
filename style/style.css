@@ -35,9 +35,6 @@ html, body {
 	width: 50%;
 }
 
-#site-body-main-image {
-}
-
 #site-body-main-image > #image {
 	font-size: 20em;
 }
@@ -134,4 +131,12 @@ ul li {
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 60%;
+}
+
+#form-acknowledgement a {
+	color: #007C89;
+}
+
+#form-acknowledgements a:hover {
+	color: #004E56;
 }
