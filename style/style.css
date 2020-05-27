@@ -40,6 +40,10 @@ html, body {
 	margin-left: 50px;
 }
 
+#form-title {
+	margin: 0 10px 0 10px;
+}
+
 #form-title a {
 	color: #007C89;
 	text-decoration: none;
@@ -63,7 +67,8 @@ html, body {
 }
 
 .form-item > input:focus {
-	border: 1.5px solid #007C89;
+	border: 2px solid #007C89;
+	border-radius: 2px;
 	resize: none;
 }
 
