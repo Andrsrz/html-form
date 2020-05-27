@@ -10,6 +10,14 @@ html, body {
 	font-size: 15px;
 }
 
+::-moz-selection { /* Code for Firefox */
+	background: #FFE2F6;
+}
+
+::selection {
+	background: #FFE2F6;
+}
+
 #site-body {
 	display: flex;
 	flex-direction: column;
@@ -109,6 +117,21 @@ ul li {
 #form-signup {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+}
+
+#submit {
+	font-size: 15px;
+	padding: 5px;
+	width: 120px;
+	height: 30px;
+}
+
+#form-checkbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 60%;
 }
