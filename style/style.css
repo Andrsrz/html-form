@@ -16,3 +16,24 @@ html, body {
 	justify-content: center;
 	height: 100%;
 }
+
+#site-body-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: flex-start;
+	height: 85%;
+	width: 85%;
+}
+
+#site-body-main-image {
+}
+
+#site-body-main-form {
+	display: flex;
+	flex-direction: column;
+}
+
+#image {
+	font-size: 25em;
+}
